@@ -59,9 +59,25 @@
 
         <div class="headline">
             <label class="headline-text">Discover Sustainable Farming with the Department of Agriculture.</label>
-            <a href="#" class="learn-more">Learn More &nbsp;<i class="bi bi-arrow-right-circle"></i><i class="bi bi-arrow-right-circle-fill"></i></a>
+            <a href="#" class="learn-more"><label>Learn More &nbsp;</label><i class="bi bi-arrow-right-circle"></i><i class="bi bi-arrow-right-circle-fill"></i></a>
         </div>
-        
+    </div>
+
+
+    <div class="footer">
+        <label class="footer-title">Eco<label class="footer-title-green">Agri</label>Link</label>
+        <label class="footer-info">Nurturing Agriculture, Fostering Sustainability, and Growing a Greener Future Together.</label>
+        <div class="footer-links">
+            <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.x.com" target="_blank"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.whatsapp.com" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        </div>
+
+        <div class="copyright">
+            <label>Copyright © 2023 EcoAgriLink.</label>
+        </div>
     </div>
 
 

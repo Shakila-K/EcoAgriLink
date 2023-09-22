@@ -44,6 +44,7 @@
     height: 100%;
     transition: transform 0.3s, color 0.3s;
     transition: 0.3s;
+    border-radius: 8px;
 }
 
 .link_item:hover{
@@ -191,17 +192,80 @@
   }
   
 .learn-more:hover{
-    padding-left: 2vw;
-    
+  padding-left: 2vw; 
 }
 
-  /* Show the filled icon on hover */
-  .learn-more:hover .bi-arrow-right-circle {
-    opacity: 0; /* Hide the empty icon */
-  }
+.learn-more:hover .bi-arrow-right-circle {
+  display: none;
+}
   
-  .learn-more:hover .bi-arrow-right-circle-fill {
-    display: inline-block; /* Show the filled icon */
-    opacity: 1; /* Make it fully visible */
-  }
+.learn-more:hover .bi-arrow-right-circle-fill {
+  display: inline-block; 
+  opacity: 1;
+}
+
   
+
+
+.footer{
+    height:40vh;
+    display: grid; 
+    grid-row: auto;
+    background-color: rgb(41, 41, 41);
+}
+
+.footer .footer-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+.footer .footer-title-green{
+    color: #7DBA34;
+}
+
+.footer .footer-info{
+    color: whitesmoke;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-self: center;
+}
+
+.footer .footer-links{
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-links i{
+    font-size: 1rem;
+    padding: 0 2vw 0;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
+}
+
+.footer-links a:hover{
+    color: #7DBA34;
+    scale: 1.2;
+}
+
+.copyright{
+    width: 100%;
+    background-color: rgb(24, 23, 24);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
