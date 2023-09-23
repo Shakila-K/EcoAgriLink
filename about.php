@@ -35,8 +35,8 @@
 
             <div class="links">
                 <div class="link_item"><a href="index.php">Home</a></div>
-                <div class="link_item"><a href="#">About Us</a></div>              
-                <div class="link_item"><a href="#">Services</a></div>
+                <div class="link_item"><a href="about.php">About Us</a></div>              
+                <div class="link_item"><a href="services.php">Services</a></div>
                 <div class="link_item">
                     <div class="account-dropdown"><a href="#">Account</a>     
                         <div class="dropdown-content">

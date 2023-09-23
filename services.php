@@ -8,6 +8,7 @@
 
 
     <!-- css -->
+    <link rel="stylesheet" href="CSS/service.css">
     <link rel="stylesheet" href="CSS/style.css">
     
     <!--Google fonts-->
@@ -57,10 +58,48 @@
             </div>
         </div>
 
-        <div class="headline">
-            <label class="headline-text">Discover Sustainable Farming with the Department of Agriculture.</label>
-            <a href="about.php" class="learn-more"><label>Learn More &nbsp;</label><i class="bi bi-arrow-right-circle"></i><i class="bi bi-arrow-right-circle-fill"></i></a>
+        
+        <div class="service-title">
+            <label>Our Services</label>
         </div>
+        
+
+        <div class="services">
+
+            <a href="#">
+                <div class="service">
+                    <div class="image">
+                        <img src="images/support.jpg">
+                    </div>
+                    <div class="text">
+                        <label>Farmer Support</label>
+                    </div>               
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="service">
+                    <div class="image">
+                        <img src="images/store.webp">
+                    </div>
+                    <div class="text">
+                        <label>Web Store</label>
+                    </div>               
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="service">
+                    <div class="image">
+                        <img src="images/article.jpg">
+                    </div>
+                    <div class="text">
+                        <label>Articles</label>
+                    </div>   
+                </div>
+            </a>
+        </div>
+
     </div>
 
 
