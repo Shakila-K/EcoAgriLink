@@ -34,7 +34,7 @@
 
             <div class="links">
                 <div class="link_item"><a href="#">Home</a></div>
-                <div class="link_item"><a href="#">About Us</a></div>              
+                <div class="link_item"><a href="about.php">About Us</a></div>              
                 <div class="link_item"><a href="#">Services</a></div>
                 <div class="link_item">
                     <div class="account-dropdown"><a href="#">Account</a>     
@@ -59,7 +59,7 @@
 
         <div class="headline">
             <label class="headline-text">Discover Sustainable Farming with the Department of Agriculture.</label>
-            <a href="#" class="learn-more"><label>Learn More &nbsp;</label><i class="bi bi-arrow-right-circle"></i><i class="bi bi-arrow-right-circle-fill"></i></a>
+            <a href="about.php" class="learn-more"><label>Learn More &nbsp;</label><i class="bi bi-arrow-right-circle"></i><i class="bi bi-arrow-right-circle-fill"></i></a>
         </div>
     </div>
 

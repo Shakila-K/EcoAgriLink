@@ -20,8 +20,11 @@
 
 .logo .name{
     font-family: Righteous;
-    margin-left: 2vw;
+    margin-left: 1vw;
+    padding: 0 1vw 0;
     font-size: 2vw;
+    background-color: whitesmoke;
+    border-radius: 5px;
 }
 
 .logo .name .agri{
@@ -180,15 +183,15 @@
     transition: 0.3s;
 }
 
-/* Initial style for the icon */
+
 .learn-more .bi-arrow-right-circle-fill {
-    display: none; /* Hide the filled icon initially */
+    display: none;
   }
   
-  /* Apply the transition effect to the icon */
+
   .learn-more .bi-arrow-right-circle,
   .learn-more .bi-arrow-right-circle-fill {
-    transition: opacity 0.3s; /* Apply a fade effect over 0.3 seconds */
+    transition: opacity 0.3s; 
   }
   
 .learn-more:hover{
