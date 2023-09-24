@@ -8,7 +8,7 @@
 
 
     <!-- css -->
-    <link rel="stylesheet" href="CSS/service.css">
+    <link rel="stylesheet" href="CSS/support.css">
     <link rel="stylesheet" href="CSS/style.css">
     
     <!--Google fonts-->
@@ -58,46 +58,34 @@
             </div>
         </div>
 
+        <div class="support">
+            
+            <label class="support-info">Get support from a field officer</label>
         
-        <div class="service-title">
-            <label>Our Services</label>
-        </div>
-        
-
-        <div class="services">
-
-            <a href="support.php">
-                <div class="service">
-                    <div class="image">
-                        <img src="images/support.jpg">
-                    </div>
-                    <div class="text">
-                        <label>Farmer Support</label>
-                    </div>               
-                </div>
-            </a>
-
-            <a href="store.php">
-                <div class="service">
-                    <div class="image">
-                        <img src="images/store.webp">
-                    </div>
-                    <div class="text">
-                        <label>Web Store</label>
-                    </div>               
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="service">
-                    <div class="image">
-                        <img src="images/article.jpg">
-                    </div>
-                    <div class="text">
-                        <label>Articles</label>
-                    </div>   
-                </div>
-            </a>
+            <div class="left-container">
+                <label class="support-title">Please Fill the following form</label>
+                <div class="support-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                          </div>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="problem">Your Problem</label>
+                            <textarea class="form-control" id="problem" rows="3" placeholder="Enter the problem you are having regarding Eco Farming"></textarea>
+                          </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                      </form>
+                </div>  
+            </div>
+            
+            <div class="right-container">
+                <img src="images/support_2.webp">
+            </div>
         </div>
 
     </div>

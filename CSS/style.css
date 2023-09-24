@@ -5,7 +5,8 @@
     background-size: cover;
     width: 100vw;
     min-height: 100vh;
-
+    height: max-content;
+    padding-bottom: 4vh;
 }
 
 .navibar{
@@ -211,7 +212,7 @@
 
 
 .footer{
-    height:40vh;
+    height:fit-content;
     display: grid; 
     grid-row: auto;
     background-color: rgb(41, 41, 41);
@@ -221,8 +222,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: whitesmoke;
+    margin-top: 5vh;
+    font-family: Righteous;
+    padding: 0 1vw 0;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    color: black;
+    width: fit-content;
+    height: 6vh;
     font-size: 1.5rem;
+    justify-self: center;
 }
 
 .footer .footer-title-green{
@@ -237,6 +246,7 @@
     justify-content: center;
     text-align: center;
     justify-self: center;
+    height: 10vh;
 }
 
 .footer .footer-links{
@@ -245,6 +255,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    height: 7vh;
 }
 
 .footer-links i{
@@ -264,6 +275,7 @@
 }
 
 .copyright{
+    height: 7vh;
     width: 100%;
     background-color: rgb(24, 23, 24);
     color: whitesmoke;

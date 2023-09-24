@@ -8,7 +8,7 @@
 
 
     <!-- css -->
-    <link rel="stylesheet" href="CSS/service.css">
+    <link rel="stylesheet" href="CSS/store.css">
     <link rel="stylesheet" href="CSS/style.css">
     
     <!--Google fonts-->
@@ -58,46 +58,76 @@
             </div>
         </div>
 
-        
-        <div class="service-title">
-            <label>Our Services</label>
-        </div>
-        
 
-        <div class="services">
+        <div class="store">
+            
+            <div class="title">
+                Welcome to &nbsp;<div class="name">Eco<label class="agri">Agri</label>Link</div>&nbsp; Web Store.
+            </div>
 
-            <a href="support.php">
-                <div class="service">
-                    <div class="image">
-                        <img src="images/support.jpg">
+            <div class="content">
+
+                <div class="item">
+                    <div class="item-image">
+                        <img src="images/bag.jpg">
                     </div>
-                    <div class="text">
-                        <label>Farmer Support</label>
-                    </div>               
-                </div>
-            </a>
-
-            <a href="store.php">
-                <div class="service">
-                    <div class="image">
-                        <img src="images/store.webp">
+                    <div class="item-info">
+                        <label class="item-title">Item 1</label>
+                        <label class="item-description">Description</label>
                     </div>
-                    <div class="text">
-                        <label>Web Store</label>
-                    </div>               
                 </div>
-            </a>
 
-            <a href="#">
-                <div class="service">
-                    <div class="image">
-                        <img src="images/article.jpg">
+                <div class="item">
+                    <div class="item-image">
+                        <img src="images/bag.jpg">
                     </div>
-                    <div class="text">
-                        <label>Articles</label>
-                    </div>   
+                    <div class="item-info">
+                        <label class="item-title">Item 1</label>
+                        <label class="item-description">Description</label>
+                    </div>
                 </div>
-            </a>
+
+                <div class="item">
+                    <div class="item-image">
+                        <img src="images/bag.jpg">
+                    </div>
+                    <div class="item-info">
+                        <label class="item-title">Item 1</label>
+                        <label class="item-description">Description</label>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-image">
+                        <img src="images/bag.jpg">
+                    </div>
+                    <div class="item-info">
+                        <label class="item-title">Item 1</label>
+                        <label class="item-description">Description</label>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-image">
+                        <img src="images/bag.jpg">
+                    </div>
+                    <div class="item-info">
+                        <label class="item-title">Item 1</label>
+                        <label class="item-description">Description</label>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-image">
+                        <img src="images/bag.jpg">
+                    </div>
+                    <div class="item-info">
+                        <label class="item-title">Item 1</label>
+                        <label class="item-description">Description</label>
+                    </div>
+                </div>
+
+            </div>
         </div>
 
     </div>

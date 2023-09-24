@@ -43,6 +43,11 @@
 
 .service:hover{
     transform: scale(1.1);
+    background-color: #7DBA34;
+}
+
+.service:hover .text{
+    color: black;
 }
 
 .service img{
