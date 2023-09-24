@@ -45,13 +45,24 @@
     transition: 0.3s;
 }
 
-.content .item:hover{
+.content .item:hover .item-image{
+    background-color: whitesmoke;
+}
+
+.content .item:hover {
     background-color: #7DBA34;
     transform: scale(1.1);
 }
 
+.content .item .item-image{
+    overflow: hidden;
+    display: flex;
+    align-items: ;
+    justify-content: center;
+}
+
 .content .item .item-image img{
-    width: 15vw;
+    width: auto;
     height: 30vh;
 }
 

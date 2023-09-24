@@ -69,61 +69,62 @@
 
                 <div class="item">
                     <div class="item-image">
-                        <img src="images/bag.jpg">
+                        <img src="images/tomato_seed.webp">
                     </div>
                     <div class="item-info">
-                        <label class="item-title">Item 1</label>
-                        <label class="item-description">Description</label>
+                        <label class="item-title">Heirloom tomato seeds</label>
+                        <label class="item-description">Rs.100.00</label>
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="item-image">
-                        <img src="images/bag.jpg">
+                        <img src="images/lettuce.webp">
                     </div>
                     <div class="item-info">
-                        <label class="item-title">Item 1</label>
-                        <label class="item-description">Description</label>
+                        <label class="item-title">Lettuce seedlings</label>
+                        <label class="item-description">Rs.170.00</label>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="item-image">
+                        <img src="images/corn.jpg">
+                    </div>
+                    <div class="item-info">
+                        <label class="item-title">Non-GMO corn seeds</label>
+                        <label class="item-description">Rs.200.00</label>
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="item-image">
-                        <img src="images/bag.jpg">
+                        <img src="images/compost.jpg">
                     </div>
                     <div class="item-info">
-                        <label class="item-title">Item 1</label>
-                        <label class="item-description">Description</label>
+                        <label class="item-title">Organic compost</label>
+                        <label class="item-description">Rs.1200.00</label>
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="item-image">
-                        <img src="images/bag.jpg">
+                        <img src="images/neem_oil.webp">
                     </div>
                     <div class="item-info">
-                        <label class="item-title">Item 1</label>
-                        <label class="item-description">Description</label>
+                        <label class="item-title">Neem oil</label>
+                        <label class="item-description">Rs.800.00</label>
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="item-image">
-                        <img src="images/bag.jpg">
+                        <img src="images/stickey.jpeg">
                     </div>
                     <div class="item-info">
-                        <label class="item-title">Item 1</label>
-                        <label class="item-description">Description</label>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="item-image">
-                        <img src="images/bag.jpg">
-                    </div>
-                    <div class="item-info">
-                        <label class="item-title">Item 1</label>
-                        <label class="item-description">Description</label>
+                        <label class="item-title">Sticky traps</label>
+                        <label class="item-description">Rs.250.00</label>
                     </div>
                 </div>
 
