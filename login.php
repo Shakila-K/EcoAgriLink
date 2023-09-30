@@ -8,8 +8,8 @@
 
 
     <!-- css -->
-    <link rel="stylesheet" href="CSS/support.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/login.css">
     
     <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
@@ -26,6 +26,7 @@
 <body>
     
     <div class="main">
+        
         <div class="navibar">
 
             <div class="logo">
@@ -57,36 +58,69 @@
                 </div>              
             </div>
         </div>
-
-        <div class="support">
-            
-            <label class="support-info">Get support from a field officer</label>
         
-            <div class="left-container">
-                <label class="support-title">Please Fill the following form</label>
-                <div class="support-form">
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            <div class="container py-5 h-100">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-xl-10">
+                  <div class="card rounded-3 text-black">
+                    <div class="row g-0">
+                      <div class="col-lg-6">
+                        <div class="card-body p-md-5 mx-md-4">
+          
+                          <div class="text-center">
+                            <h4 class="mt-1 mb-5 pb-1">We are The Eco<label style="color: #7DBA34;">Agri</label>Link Team</h4>
                           </div>
-                        <div class="form-group">
-                          <label for="exampleInputEmail1">Email address</label>
-                          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+          
+                          <form>
+                            <p>Please login to your account</p>
+          
+                            <div class="form-outline mb-4">
+                              <input type="email" id="form2Example11" class="form-control"
+                                placeholder="Username" />
+                            
+                            </div>
+          
+                            <div class="form-outline mb-4">
+                              <input type="password" id="form2Example22" class="form-control" placeholder="Password" />
+    
+                            </div>
+          
+                            <div class="text-center">
+                              <button class="btn btn-success btn-block fa-lg mb-3" type="button">Log
+                                in</button>
+                
+                            </div>
+
+                            <div class="text-center pt-1 mb-5 pb-1">
+                    
+                                <a class="text-muted" href="#!">Forgot password?</a>
+                              </div>
+          
+                            <div class="d-flex align-items-center justify-content-center pb-4">
+                              <p class="mb-0 me-2">Don't have an account?</p>
+                              <a href="signup.php"><button type="button" class="btn btn-outline-success">Create new</button></a>
+                            </div>
+          
+                          </form>
+          
                         </div>
-                        <div class="form-group">
-                            <label for="problem">Your Problem</label>
-                            <textarea class="form-control" id="problem" rows="3" placeholder="Enter the problem you are having regarding Eco Farming"></textarea>
-                          </div>
-                        <button type="submit" class="btn btn-success">Submit</button>
-                      </form>
-                </div>  
+                      </div>
+                      <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+                        <div class="px-3 py-4 p-md-5 mx-md-4">
+                          <h4 class="mb-4">Welcome to the Department of Agriculture, Sri Lanka.</h4>
+                          <p class="small mb-0">At the heart of Sri Lanka's agricultural landscape 
+                            lies the Department of Agriculture (DOA), a pioneering institution dedicated 
+                            to advancing sustainable farming practices and nurturing a greener tomorrow. 
+                            With a rich heritage spanning decades, we are committed to fostering ecological 
+                            farming and supporting the nation's agricultural stakeholders.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            
-            <div class="right-container">
-                <img src="images/support_2.webp">
-            </div>
-        </div>
+          
 
     </div>
 

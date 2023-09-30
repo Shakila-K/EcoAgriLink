@@ -40,8 +40,8 @@
                 <div class="link_item">
                     <div class="account-dropdown"><a href="#">Account</a>     
                         <div class="dropdown-content">
-                            <div class="link_item"><a href="#"><i class="bi bi-person-fill"></i> Sign In</a></div>
-                            <div class="link_item"><a href="#"><i class="bi bi-person-fill-add"></i> Sign Up</a></div>
+                            <div class="link_item"><a href="login.php"><i class="bi bi-person-fill"></i> Sign In</a></div>
+                            <div class="link_item"><a href="signup.php"><i class="bi bi-person-fill-add"></i> Sign Up</a></div>
                         </div>
                     </div>
                 </div>

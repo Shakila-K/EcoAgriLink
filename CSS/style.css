@@ -19,7 +19,7 @@
     align-items: center;
 }
 
-.logo .name{
+.name{
     font-family: Righteous;
     margin-left: 1vw;
     padding: 0 1vw 0;
@@ -28,7 +28,7 @@
     border-radius: 5px;
 }
 
-.logo .name .agri{
+.name .agri{
     color: #7DBA34;
 }
 
